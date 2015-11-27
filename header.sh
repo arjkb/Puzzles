@@ -4,7 +4,7 @@ if [ $# -eq "1" ]; then
 	echo "# AUTHOR\t: Arjun Krishna Babu" >> $filename
 	echo -n "# DATE\t\t: " >> $filename
 	date >> $filename
-	echo "# OS\t\t: openSUSE Leap 42.1" >> $filename
+	echo "# OS\t\t: Fedora 23 Workstation" >> $filename
 	exit 0
 else
 	echo "Error: Specify ONE filename"
